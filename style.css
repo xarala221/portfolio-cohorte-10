@@ -1,0 +1,115 @@
+/*
+Ceci est un commentaire CSS
+*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  background-color: lightblue;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li {
+  font-size: 20px;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+h1 {
+  color: purple;
+  font-size: 30px;
+}
+
+p {
+  color: blue;
+  font-size: 18px;
+}
+
+.beignet {
+  color: red;
+  font-size: 20px;
+}
+
+.beignet::first-letter {
+  color: green;
+  font-size: 30px;
+}
+
+#nom {
+  color: white;
+  font-size: 30px;
+  background-color: purple;
+}
+
+#language ul li {
+  color: green;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+#language ul li:first-child {
+  color: red;
+}
+
+div#language {
+  color: blueviolet;
+  font-size: 30px;
+}
+
+/* mes realisations */
+section {
+  padding: 80px 0;
+}
+.realisation-flex-container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.realisation-flex-container .realisation-site {
+  background-color: lightblue;
+  flex: 1;
+}
+
+.realisation-flex-container img {
+  max-width: 100%;
+}
+.realisation-flex-container .realisation-app {
+  background-color: lightcoral;
+  flex: 1;
+}
+.realisation-flex-container .realisation-design {
+  background-color: lightgreen;
+  flex: 1;
+}
+
+.realisation-grid-container {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.realisation-grid-container .realisation-site {
+  background-color: lightblue;
+}
+
+.realisation-grid-container .realisation-app {
+  background-color: lightcoral;
+}
+.realisation-grid-container .realisation-design {
+  background-color: lightgreen;
+}
